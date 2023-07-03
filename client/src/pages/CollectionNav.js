@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery } from "@apollo/client";
-import { MetaTags } from "react-meta-tags";
+// import { MetaTags } from "react-meta-tags";
 
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 
@@ -15,9 +15,9 @@ function Collections() {
     
     return (
         <Container>
-            <MetaTags>
+            {/* <MetaTags>
                 <title>1001 Nuggets - Collections</title>
-            </MetaTags>
+            </MetaTags> */}
             <Card>
                 <Card.Header>Home {`>`} Collections</Card.Header>
                 <Card.Body>

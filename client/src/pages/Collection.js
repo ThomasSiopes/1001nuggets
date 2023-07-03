@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Redirect, useParams } from "react-router-dom";
 import { useQuery} from "@apollo/client";
-import MetaTags from "react-meta-tags";
+// import MetaTags from "react-meta-tags";
 
 import { Container, Row, Col, Card } from "react-bootstrap";
 import TopicButton from "../components/TopicButton";
@@ -29,9 +29,9 @@ function Collection () {
 
     return (
         <Container>
-            <MetaTags>
+            {/* <MetaTags>
                 <title>1001 Nuggets - {collection.name}</title>
-            </MetaTags>
+            </MetaTags> */}
             <Row className="justify-content-center navPage-body">
                 <Col>
                     <Card>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 import { useQuery} from "@apollo/client";
-import MetaTags from "react-meta-tags";
+// import MetaTags from "react-meta-tags";
 
 import { Container, Row, Col, Card } from "react-bootstrap";
 
@@ -48,9 +48,9 @@ function SomePeople () {
 
     return (
         <Container>
-            <MetaTags>
+            {/* <MetaTags>
                 <title>1001 Nuggets - Some People</title>
-            </MetaTags>
+            </MetaTags> */}
             <Card>
                 <Card.Header>Home {`>`} Some People</Card.Header>
                 <Card.Body>

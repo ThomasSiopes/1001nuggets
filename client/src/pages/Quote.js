@@ -1,7 +1,7 @@
 import React from "react";
 import { Redirect, useParams } from "react-router-dom";
 import { useQuery} from "@apollo/client";
-import MetaTags from "react-meta-tags";
+// import MetaTags from "react-meta-tags";
 
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { FaTwitter, FaFacebookF } from "react-icons/fa";
@@ -29,9 +29,9 @@ function Quote () {
 
     return (
         <Container>
-            <MetaTags>
+            {/* <MetaTags>
                 <title>1001 Nuggets - {quote.author} - {quote.quoteText}</title>
-            </MetaTags>
+            </MetaTags> */}
             <Card>
                 <Card.Header>Home {`>`} Authors {`>`} <AuthorButton type={"link"} name={quote.author}/> {`>`} Quotes</Card.Header>
                 <Card.Body>

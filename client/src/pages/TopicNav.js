@@ -1,5 +1,5 @@
 import React from "react";
-import MetaTags from "react-meta-tags";
+// import MetaTags from "react-meta-tags";
 
 import { Container, Row, Col, Card } from "react-bootstrap";
 import TopicNavInst from "../components/TopicNavInst";
@@ -24,9 +24,9 @@ function Topics () {
 
     return (
         <Container>
-            <MetaTags>
+            {/* <MetaTags>
                 <title>1001 Nuggets - Topics</title>
-            </MetaTags>
+            </MetaTags> */}
             <Row className="justify-content-center navPage-body">
                 <Col>
                     <Card>
